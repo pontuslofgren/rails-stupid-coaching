@@ -1,0 +1,13 @@
+<div class="container my-3">
+  <h1>Stupid coach</h1>
+  <div class="blockquote_area">
+    <p class="quote"><%= @question %></p>
+    <p class="source">You</p>
+  </div>
+
+  <div class="blockquote_area coach">
+    <p class="quote"><%= @answer %></p>
+    <p class="source">Coach</p>
+  </div>
+  <%= link_to "Ask a new question", "/ask" %>
+</div>
